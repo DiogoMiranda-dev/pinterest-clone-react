@@ -49,7 +49,7 @@ function App() {
   useEffect(() => {
     getNewPins();
   }, []);
-/* 
+
   function enterScreen(index) {
     const headings = document.querySelectorAll('.heading .wrapper .text');
     const grids = document.querySelectorAll('.grid');
@@ -110,7 +110,7 @@ function App() {
       timePerScreen: 3000, // ms
       exitDelay: 200 * 7, // ms
     });
-  }, []); */
+  }, []);
 
   return (
     <div>
