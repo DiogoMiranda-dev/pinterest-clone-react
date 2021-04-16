@@ -21,6 +21,35 @@ function App() {
       );
     };
 
+    function getDescription(name) {
+      switch (name) {
+        case 'food and drink':
+          return 'ideia para uma jantar especial';
+        case 'dubai':
+          return 'ideia para um viagem';
+        case 'sports':
+          return 'atividade para práticar';
+        case 'beach':
+          return 'ideia para ir a praia';
+        default:
+          break;
+      }
+    }
+
+    function getColor(name) {
+      switch (name) {
+        case 'food and drink':
+          return 'rgb(194, 139, 0)';
+        case 'dubai':
+          return 'rgb(224, 111, 5)';
+        case 'sports':
+          return 'rgb(97, 140, 123)';
+        case 'beach':
+          return 'rgb(0, 118, 211)';
+        default:
+          break;
+      }
+    }
     const getNewPins = () => {
       let promises = [];
       let pinData = [];
@@ -42,6 +71,8 @@ function App() {
             pinData.push({
               row: index,
               name: pinTerm,
+              description: getDescription(pinTerm),
+              color:  getColor(pinTerm),
               imageItems: items,
             });
           })
