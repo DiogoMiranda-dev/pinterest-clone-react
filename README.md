@@ -1,7 +1,7 @@
 # autor
 Feito com muito por [https://diogomiranda.dev.br/](https://diogomiranda.dev.br/)\
 Feito em Live [https://www.youtube.com/watch?v=XdqD8qi44Cg&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=2](https://www.youtube.com/watch?v=XdqD8qi44Cg&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=2) para estudo de react,\
-Todos os direitos das imagens são da pinterest.
+
 
 # pinterest-clone-react
 Neste projeto busquei reproduzir a home do pinterest,\
@@ -10,11 +10,8 @@ usando animações com css e praticando um pouco mais o react
 # clone APP
 Interface [https://br.pinterest.com/](pinterest.com)
 
-## APP images
-![Screenshot_1](/img/pinterest_clone_react_img0.png "Screenshot_1")
-![Screenshot_2](/img/pinterest_clone_react_img1.png "Screenshot_2")
-## Responsive app
-![Screenshot_3](/img/pinterest_clone_react_img_resp0.png "Screenshot_3")
+# API
+dados de [https://unsplash.com/](unsplash.com)
 
 # Getting Started with Create React App
 
