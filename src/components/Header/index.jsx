@@ -14,19 +14,15 @@ function Header(props) {
       </div>
 
       <nav>
-        <ul>
+        <ul className="nav-item nav-ul">
           <li>
-            <a href="#">Sobre</a>
+            <a href="/">Sobre</a>
           </li>
-        </ul>
-        <ul>
           <li>
-            <a href="#">Negócios</a>
+            <a href="/">Negócios</a>
           </li>
-        </ul>
-        <ul>
           <li>
-            <a href="#">Blog</a>
+            <a href="/">Blog</a>
           </li>
         </ul>
 

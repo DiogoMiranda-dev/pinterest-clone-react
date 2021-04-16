@@ -80,6 +80,9 @@ header nav .buttons {
   margin-left: 24px;
 }
 
+button {
+  outline: none;
+}
 header nav .buttons button {
   font-size: 16px;
   font-weight: 700;
@@ -95,6 +98,7 @@ header nav .buttons button {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 header nav .buttons .login {
@@ -108,7 +112,7 @@ header nav .buttons .signup {
 }
 
 .heading {
-  margin-top: 120px;
+  margin-top: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,4 +248,55 @@ header nav .buttons .signup {
 .item:not(:first-child) {
   margin-top: 16px;
 }
-/*# sourceMappingURL=styles.css.map */
+
+@media (max-width: 670px) {
+  .heading .text {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  header {
+    padding: 5px 8px;
+  }
+
+  header h3 {
+    color: #e60023;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  header nav .buttons button {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 6px;
+    border-radius: 24px;
+  }
+
+  .grid {
+    -ms-grid-columns: (50px) [3];
+    grid-template-columns: repeat(3, 100px);
+  }
+
+  .grid.active {
+    margin-top: -220px;
+  }
+  .item {
+    width: 90px;
+    height: 150px;
+    background: #e60023;
+    border-radius: 10px;
+  }
+  .column:nth-child(1) {
+    display: none;
+  }
+  .column:nth-child(2) {
+    display: none;
+  }
+  .column:nth-child(6) {
+    display: none;
+  }
+  .column:nth-child(7) {
+    display: none;
+  }
+  
+}

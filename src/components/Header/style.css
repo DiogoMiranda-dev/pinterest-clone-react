@@ -20,3 +20,13 @@
   color: #e60023;
   cursor: pointer;
 }
+
+.nav-ul{
+  display: flex;
+}
+
+@media (max-width: 670px){
+  .nav-item{
+    display: none;
+  }
+}
