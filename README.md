@@ -36,8 +36,7 @@ Interface [https://br.pinterest.com/](pinterest.com)
 - **[@material-ui/icons](https://material-ui.com/pt/getting-started/installation/)**
 - **[React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)**
 - **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro)**
-- **[web-vitals](https://github.com/axios/axios)**
-- **[Jest](https://jestjs.io/)**
+- **[axios](https://www.npmjs.com/package/axios#installing)**
 - **[Eslint](https://eslint.org/)**
 - **[Prettier](https://prettier.io/)**
 
@@ -61,7 +60,7 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/DiogoMiranda-dev/netflix_clone_react
+$ git clone https://github.com/DiogoMiranda-dev/pinterest-clone-react
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd netflix_clone_react
