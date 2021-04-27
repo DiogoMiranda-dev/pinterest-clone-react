@@ -63,7 +63,7 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 $ git clone https://github.com/DiogoMiranda-dev/pinterest-clone-react
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd netflix_clone_react
+$ cd pinterest-clone-react
 ```
 
 ### 🎲 Rodando a Aplicação
